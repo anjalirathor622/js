@@ -1,0 +1,40 @@
+
+
+/* id selector*/
+#a{
+    color: #fff;
+}
+
+/* class selector*/
+.a1{
+    background-color: violet;
+
+}
+
+
+/*sibling selector*/
+#a + #b{
+    color:red;
+}
+
+/*group selector*/
+.x,.y,.z {
+    font-size:3em;
+}
+
+p{
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    padding: 100px;
+    border: 5px dashed; 
+    
+}
+.e{
+    background-color: blue;
+    text-align:center;
+    font-size: 3em;
+}
+.a1:hover{
+    color:maroon;
+}
